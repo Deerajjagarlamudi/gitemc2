@@ -1,0 +1,10 @@
+class car:
+    def __init__(self,make,model,price):
+        self.make=make
+        self.model=model
+        self.price=price
+    def print_model(self):
+        print(f"This car's model is {self.model},{self.make},{self.price}")
+my_car=car("camry","toyota",45000)
+my_car.print_model()
+    
